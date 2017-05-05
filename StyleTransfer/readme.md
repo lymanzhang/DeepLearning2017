@@ -6,6 +6,12 @@
 比如本例中，分别采用了来自5个不同风格的绘画作品进行训练，并应用到同一对象上。
 
 ### 原参考风格
+![la_muse风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/la_muse.jpg)
+![rain_princess风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/rain_princess.jpg)
+![wreck风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/the_shipwreck_of_the_minotaur.jpg)
+![udnie风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/udnie.jpg)
+![wave风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/wave.jpg)
+
 
 ### 原迁移目标图
 ![Trump](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/Trump/cp02.jpeg)
@@ -27,23 +33,23 @@
 
 要自己试一下，你可以在 [fast-style-transfer](https://github.com/lengstrom/fast-style-transfer) GitHub 资源库 中找到相关代码。你可以使用 git 克隆该资源库，或将整个资源库下载为 Zip 归档文件，并解压。
 
+自己训练神经网络需要非常大的资源开销，在此我们先使用他人已经训练出来的检查点文件对目标图片进行风格迁移尝试。
+
 该神经网络按照[此处](https://github.com/lengstrom/fast-style-transfer/tree/master/examples/style)的几种不同风格进行了训练，并保存在[检查点文件](https://drive.google.com/drive/folders/0B9jhaT37ydSyRk9UX0wwX3BpMzQ)中。检查点文件包含了关于已训练神经网络的所有信息，可以将风格应用到新的图片上。
 
-依赖项
-安装运行该代码所需的所有程序包的最简单方式是使用 Miniconda，它是更简版本的 Anaconda。 Miniconda 自带了 Conda，后者是专门用于数据科学的程序包和环境管理器。请安装适合你的操作系统的 Python 3 版本的 Miniconda。
+### 依赖项
 
-如果你之前没有使用过 Conda，请快速阅读我们的教程。
-
-Windows
+- Windows
 对于 Windows，你需要安装 TensorFlow 0.12.1、Python 3.5、Pillow 3.4.2、scipy 0.18.1 和 numpy 1.11.2。安装 Miniconda 后，打开你的命令提示符窗口。然后逐行输入以下命令：
-
+```
 conda create -n style-transfer python=3.5
 activate style-transfer
 pip install tensorflow
 conda install scipy pillow
+```
 第一行创建一个新的环境，其中存储了格式迁移代码所需的程序包。第二行 (activate style-transfer) 会进入该环境，你应该会在提示符窗口的开头看到环境名称。接下来的两行负责安装 TensorFlow、Scipy 和 Pillow（一种图像处理库）。
 
-OS X 和 Linux
+- OS X 和 Linux
 对于 OS X 和 Linux，你需要安装 TensorFlow 0.11.0、Python 2.7.9、Pillow 3.4.2、scipy 0.18.1 和 numpy 1.11.2.
 
 在终端里，逐行输入以下命令：
