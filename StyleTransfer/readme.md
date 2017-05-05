@@ -26,7 +26,7 @@
 ![Trump_udnie](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/Trump/cp02_output_udnie.jpg)
 
 ### wave风格
-![wave](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/Trump/cp02_output_wave.jpg)
+![Trump_wave](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/Trump/cp02_output_wave.jpg)
 
 ### wreck风格
 ![Trump_wreck](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/Trump/cp02_output_wreck.jpg)
@@ -71,3 +71,43 @@ conda install scipy pillow
 ```
 python evaluate.py --checkpoint ./rain-princess.ckpt --in-path <path_to_input_file> --out-path ./output_image.jpg
 ```
+比如：
+```
+python evaluate.py --checkpoint ./models/la_muse.ckpt --in-path ./imgs/SBN_04.jpg --out-path ./imgs/SBN_04_output_udnie.jpg
+```
+
+### 其他示例
+
+### 原迁移目标图
+![TheGate](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/theGate/jiaoda01.jpeg)
+
+### la_muse风格
+![TheGate_la_muse](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/theGate/jiaoda01_output_la_muse.jpg)
+
+### rain-princess风格
+![TheGate_rain-princess](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/theGate/jiaoda01_output_rain-princess.jpg)
+
+### udnie风格
+![TheGate_udnie](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/theGate/jiaoda01_output_udnie.jpg)
+
+### wave风格
+![TheGate_wave](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/theGate/jiaoda01_output_wave.jpg)
+
+### wreck风格
+![TheGate_wreck](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/theGate/jiaoda01_output_wreck.jpg)
+
+
+### 原迁移目标图
+![Forest](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/Forest/SBN_04.jpg)
+
+### la_muse风格
+![Forest_la_muse](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/Forest/SBN_04_output_la_muse.jpg)
+
+### rain-princess风格
+![Forest_rain-princess](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/Forest/SBN_04_output_rain-princess.jpg)
+
+### udnie风格
+![Forest_udnie](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/Forest/SBN_04_output_udnie.jpg)
+
+### wreck风格
+![Forest_wreck](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/Forest/SBN_04_output_wreck.jpg)
