@@ -1,15 +1,20 @@
 ## 风格迁移
 风格迁移是深度学习模型比较具有代表性的应用实现之一，通过风格迁移，你可以按照著名的画作重新创建风格一样的图片！
 
-先来研究一个叫做快速风格迁移的模型，首先通过神经网络会学习指定绘画作品的风格，然后再将这一风格应用到对另一图片的处理上，从而生成与指定绘画作品风格非常一致的处理输出。也就是说，这个风格迁移模型能够根据给定画作的风格进行了训练，然后将这些风格迁移到其他图片上，甚至视频上！
+先来研究一个叫做[快速风格迁移](https://github.com/lengstrom/fast-style-transfer)的模型，首先通过神经网络会学习指定绘画作品的风格，然后再将这一风格应用到对另一图片的处理上，从而生成与指定绘画作品风格非常一致的处理输出。也就是说，这个风格迁移模型能够根据给定画作的风格进行了训练，然后将这些风格迁移到其他图片上，甚至[视频](https://www.youtube.com/watch?v=xVJwwWQlQ1o)上！
 
 比如本例中，分别采用了来自5个不同风格的绘画作品进行训练，并应用到同一对象上。
 
 ### 原参考风格
+### la_muse风格  
 ![la_muse风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/la_muse.jpg)
+### rain-princess风格  
 ![rain_princess风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/rain_princess.jpg)
+### wreck风格  
 ![wreck风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/the_shipwreck_of_the_minotaur.jpg)
+### udnie风格  
 ![udnie风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/udnie.jpg)
+### wave风格  
 ![wave风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/wave.jpg)
 
 
