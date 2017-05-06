@@ -6,15 +6,15 @@
 比如本例中，分别采用了来自5个不同风格的绘画作品进行训练，并应用到同一对象上。
 
 ### 原参考风格
-### la_muse风格  
+### la_muse风格 [Pablo Picasso](https://en.wikipedia.org/wiki/Pablo_Picasso)  
 ![la_muse风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/la_muse.jpg)
-### rain-princess风格  
+### rain-princess风格 [Leonid Afremov](https://afremov.com/Leonid-Afremov-bio.html)  
 ![rain_princess风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/rain_princess.jpg)
-### wreck风格  
+### wreck风格 [J.M.W. Turner](https://en.wikipedia.org/wiki/J._M._W._Turner)  
 ![wreck风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/the_shipwreck_of_the_minotaur.jpg)
-### udnie风格  
+### udnie风格 [Francis Picabia](https://en.wikipedia.org/wiki/Francis_Picabia)  
 ![udnie风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/udnie.jpg)
-### wave风格  
+### wave风格 [Hokusai](https://en.wikipedia.org/wiki/Hokusai)  
 ![wave风格](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/style/wave.jpg)
 
 
@@ -116,3 +116,11 @@ python evaluate.py --checkpoint ./models/la_muse.ckpt --in-path ./imgs/SBN_04.jp
 
 ### wreck风格
 ![Forest_wreck](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/Forest/SBN_04_output_wreck.jpg)
+
+### checkpoint下载链接
+- [Rain Princess checkpoint](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/587d1865_rain-princess/rain-princess.ckpt)
+- [La Muse checkpoint](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa800_la-muse/la-muse.ckpt)
+- [Udnie checkpoint](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa846_udnie/udnie.ckpt)
+- [Scream checkpoint](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa883_scream/scream.ckpt)
+- [Wave checkpoint](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa89d_wave/wave.ckpt)
+- [Wreck checkpoint](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa8b6_wreck/wreck.ckpt)
