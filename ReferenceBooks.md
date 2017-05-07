@@ -9,3 +9,4 @@
 
 - [The Deep Learning Textbook](http://www.deeplearningbook.org/)
 作者：Ian Goodfellow、Yoshua Bengio 和 Aaron Courville。这本在线图书包含了大量的资料，是三本书中最严密的一本。
+amazon链接[Deep Learning (Adaptive Computation and Machine Learning series)](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/0262035618/ref=sr_1_1?ie=UTF8&qid=1494123285&sr=8-1&keywords=Deep+Learning+%28Adaptive+Computation+and+Machine+Learning+series%29)
