@@ -253,4 +253,4 @@ array([[ 14.63126659,  -6.80020189,  -4.92433405, ...,   3.42016411,
          27.76248932,  -8.17777443]], dtype=float32)
 >>>
 ```
-![gpu安装检测]()
+![gpu安装检测（点击放大图片）](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/gpu/gpu.JPG)
