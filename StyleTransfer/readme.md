@@ -124,3 +124,19 @@ python evaluate.py --checkpoint ./models/la_muse.ckpt --in-path ./imgs/SBN_04.jp
 - [Scream checkpoint](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa883_scream/scream.ckpt)
 - [Wave checkpoint](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa89d_wave/wave.ckpt)
 - [Wreck checkpoint](https://d17h27t6h515a5.cloudfront.net/topher/2017/January/588aa8b6_wreck/wreck.ckpt)
+
+
+## GPU计算的实现
+
+由于GPU计算效率更高，因此部署好GPU计算环境能够很好的加速机器学习速度。
+本人采用的是DELL 2016年发布的移动工作站m7710，至强1535v3的CPU，M5000M的图形卡，Nvidia公布的GPU计算性能在5.3,因此对系统进行了GPU计算环境部署。
+
+- 安装Nvidia的GPU驱动
+- 安装cuda程序包，这是一个压缩包，直接解压缩到相关地址即可，如本例：c:\cuda
+- 将cuda添加到系统路径
+- 通过anaconda创建一个新的python3环境，如styletransfergpu，激活环境，在该环境下安装tensorflow的gpu版本
+- 下载VGG19网络模型，该是由牛津视觉几何组（Visual Geometry Group）开发的卷积神经网络结构，它在视觉方面有着不错的表现，项目中也需要用到VGG19网络模型。该文件500多兆，下载速度尚可。
+　　[VGG19下载地址](http://www.vlfeat.org/matconvnet/models/beta16/imagenet-vgg-verydeep-19.mat)
+- 根据需要运行相关代码，进行模型训练(style.py)或评估(evaluate.py).
+
+实际使用中发现设置为gpu计算后，评估速度大大加快，感觉对于同一张target图，评估时间要快十多倍（感觉，没有用key方法做量化评估）。训练中退出，console提示显示内存不够用（本例实用的是M5000M，显存为8GB，依然不够用），因此训练速度是否有提高尚没有实证，不过应该是显然的。
