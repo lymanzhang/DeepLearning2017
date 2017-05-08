@@ -191,6 +191,7 @@ pip3 install --upgrade tensorflow
 安装完之后系统变量会自动为你添加上，这个不用管。
 
 测试一下是否安装成功，命令行输入```nvcc -V```，看到版本信息就表示安装成功了。
+![nvcc_version](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/gpu/nvcc_version.JPG)
 
 ## 测试
 
@@ -252,3 +253,4 @@ array([[ 14.63126659,  -6.80020189,  -4.92433405, ...,   3.42016411,
          27.76248932,  -8.17777443]], dtype=float32)
 >>>
 ```
+![gpu安装检测]()
