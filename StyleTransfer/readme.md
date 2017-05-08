@@ -254,3 +254,5 @@ array([[ 14.63126659,  -6.80020189,  -4.92433405, ...,   3.42016411,
 >>>
 ```
 ![gpu安装检测（点击放大图片）](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/gpu/gpu.JPG)
+
+[其他参考网站](http://blog.csdn.net/u010099080/article/details/53418159)
