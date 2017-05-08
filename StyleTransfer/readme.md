@@ -128,8 +128,10 @@ python evaluate.py --checkpoint ./models/la_muse.ckpt --in-path ./imgs/SBN_04.jp
 
 ## GPU计算的实现
 
-由于GPU计算效率更高，因此部署好GPU计算环境能够很好的加速机器学习速度。
-本人采用的是DELL 2016年发布的移动工作站m7710，至强1535v3的CPU，M5000M的图形卡，Nvidia公布的GPU计算性能在5.3,因此对系统进行了GPU计算环境部署。
+由于GPU计算效率更高，因此部署好GPU计算环境能够很好的加速机器学习速度。  
+目前支持GPU计算的显卡均为Nvidia开发，因此无法在Mac pro上部署，本例中GPU计算部署在win10的Dell M7710移动图新工作站上。  
+未来计划部署4张基于pascal的TitanX，应该性能更佳。  
+本人采用的是DELL 2016年发布的移动工作站m7710，操作系统为win10，至强1535v3的CPU，M5000M的图形卡，Nvidia公布的GPU计算性能在5.3,因此对系统进行了GPU计算环境部署。
 
 - 安装Nvidia的GPU驱动
 - 安装cuda程序包，这是一个压缩包，直接解压缩到相关地址即可，如本例：c:\cuda
