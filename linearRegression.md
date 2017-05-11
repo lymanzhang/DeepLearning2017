@@ -10,7 +10,7 @@ clf.coef_
 array([0.5, 0.5]) #读取系数
 ```
 来自sklearn上的示例
-```
+``` python
 print(__doc__)
 
 
