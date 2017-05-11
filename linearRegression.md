@@ -1,6 +1,6 @@
 ## ```SKlearn```中```linearRegression```线性回归的调用
 
-```
+``` python
 from sklearn import linear_model
 clf = linear_model.LinearRegression()
 clf.fit([[0, 0], [1, 1], [2, 2]], [0, 1, 2])
