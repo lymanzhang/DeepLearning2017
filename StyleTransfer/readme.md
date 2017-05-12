@@ -255,8 +255,8 @@ array([[ 14.63126659,  -6.80020189,  -4.92433405, ...,   3.42016411,
 ```
 ![gpu安装检测（点击放大图片）](https://github.com/lymanzhang/DeepLearning2017/blob/master/StyleTransfer/gpu/gpu.JPG)
 
-[其他参考网站](http://blog.csdn.net/u010099080/article/details/53418159)
-[其他风格转换](https://github.com/lymanzhang/image-style-transfor)
-[neural-style](https://github.com/anishathalye/neural-style)
-[用TensorFlow 做出属于自己的Prisma](http://mt.sohu.com/20160816/n464537105.shtml)
-[An AI That Can Mimic Any Artist](http://www.anishathalye.com/2015/12/19/an-ai-that-can-mimic-any-artist/)
+- [其他参考网站](http://blog.csdn.net/u010099080/article/details/53418159)
+- [其他风格转换](https://github.com/lymanzhang/image-style-transfor)
+- [neural-style](https://github.com/anishathalye/neural-style)
+- [用TensorFlow 做出属于自己的Prisma](http://mt.sohu.com/20160816/n464537105.shtml)
+- [An AI That Can Mimic Any Artist](http://www.anishathalye.com/2015/12/19/an-ai-that-can-mimic-any-artist/)
