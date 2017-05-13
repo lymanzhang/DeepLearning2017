@@ -4,19 +4,19 @@ Sigmoid函数是一个常见的S型的函数，也称为S型生长曲线。
 
 ### Sigmoid函数由下列公式定义
 
-其对x的导数可以用自身表示:
+其对x的导数可以用自身表示:  
 S(x) = 1 / 1 + e^-x
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-- 行间公式
+- 行间公式  
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 
-- 行内公式
+- 行内公式  
 \\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
 
-其对x的导数为
+其对x的导数为  
 S'(x) = e^-x / (1 + e ^-x)^2 = S(x)(1-S(x))
 
 - 1.  Han, Jun; Morag, Claudio ．The influence of the sigmoid function parameters on the speed of backpropagation learning：From Natural to Artificial Neural Computation.，1995： 195–201
