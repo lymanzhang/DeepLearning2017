@@ -7,6 +7,8 @@ Sigmoid函数是一个常见的S型的函数，也称为S型生长曲线。
 其对x的导数可以用自身表示:
 S(x) = 1 / 1 + e^-x
 
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
+
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$  
 \\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
 
