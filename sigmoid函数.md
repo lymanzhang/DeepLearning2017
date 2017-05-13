@@ -9,7 +9,11 @@ S(x) = 1 / 1 + e^-x
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
 
-$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$  
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+- 行间公式
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+
+- 行内公式
 \\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
 
 其对x的导数为
