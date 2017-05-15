@@ -85,7 +85,7 @@ python evaluate.py --checkpoint ./models/la_muse.ckpt --in-path ./imgs/SBN_04.jp
 运行```style.py```来训练新的风格迁移神经网络。
 运行```python style.py```来查看所有可用的参数。训练比较花费时间，在Maxwell Titan X上训练需要4-6小时，如果没有GPU支持，仅靠CPU还会需要花费更多的时间，大概在10-20倍左右。可以通过一下[链接](https://github.com/lengstrom/fast-style-transfer/blob/master/docs.md#style)获取更多关于参数方面的信息。
 在运行训练之前，需要先运行一下```setup.sh```，比如：
-```python
+```python   
 python style.py --style path/to/style/img.jpg \
   --checkpoint-dir checkpoint/path \
   --test path/to/test/img.jpg \
