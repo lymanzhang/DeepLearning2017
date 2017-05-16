@@ -293,8 +293,5 @@ Ruder在视频上进行风格转化，解决了针对不同像素，风格转化
 使用同一个网络同时进行多种风格的转化 
 [Dumoulin et al, “A Learned Representation for Artistic Style”, arXiv 2016](https://arxiv.org/pdf/1610.07629.pdf)
 
-在
-再电影作品
-再电影作品中的
-再电影作品中的应用
+在电影作品中的应用
 [Bringing Impressionism to Life with Neural Style Transfer in Come Swim](https://arxiv.org/pdf/1701.04928.pdf)
