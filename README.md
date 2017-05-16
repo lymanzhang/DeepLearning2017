@@ -7,6 +7,7 @@ DeepLearning2017 Course Notes
 
 其原始网页链接：
 [How to Get a Job In Deep Learning](http://blog.deepgram.com/how-to-get-a-job-in-deep-learning/)
+[GitHub 最受欢迎深度学习项目 Top 20（持续更新）](http://it.sohu.com/20170515/n493051033.shtml)
 
 ## 相关应用
 
