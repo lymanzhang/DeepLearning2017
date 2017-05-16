@@ -278,20 +278,21 @@ array([[ 14.63126659,  -6.80020189,  -4.92433405, ...,   3.42016411,
 
 ## 其他相关研究
 风格迁移源于[Gatys et al, “Image Style Transfer using Convolutional Neural Networks”, CVPR 2016](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)。这篇惊世之作一出，在学术界和工业界刮起来两股热潮。学术界陆续提出融合多种风格的算法，转换视频的算法，一次输出多种风格的算法，等等。工业界则做出网站，应用，小工具让人们给自己的照片加上梵高的风格。
-Gatyes后续有发表了一些相关的论文，例如下面这个可以保存内容图片的颜色，只在亮度通道中进行风格转化 
+
+- Gatyes后续有发表了一些相关的论文，例如下面这个可以保存内容图片的颜色，只在亮度通道中进行风格转化 
 [Gatys et al, “Preserving Color in Neural Artistic Style Transfer”, arXiv 2016](https://arxiv.org/pdf/1606.05897.pdf)
 
-Ruder在视频上进行风格转化，解决了针对不同像素，风格转化不连续的问题 
+- Ruder在视频上进行风格转化，解决了针对不同像素，风格转化不连续的问题 
 [Ruder et al, “Artistic style transfer for videos”, arXiv 2016](https://arxiv.org/pdf/1604.08610.pdf)
 
-在特征空间中使用局部匹配来计算风格偏差，效果比使用 Gram Matrix 更好 
+- 在特征空间中使用局部匹配来计算风格偏差，效果比使用 Gram Matrix 更好 
 [Li and Wand, “Combining Markov Random Fields and Convolutional Neural Networks for Image Synthesis”, CVPR 2016](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Li_Combining_Markov_Random_CVPR_2016_paper.pdf)
 
-对于高分辨率图片的快速风格转化 
+- 对于高分辨率图片的快速风格转化 
 [Johnson et al, “Perceptual Losses for Real-Time Style Transfer and Super-Resolution”, ECCV 2016](https://arxiv.org/pdf/1603.08155.pdf)
 
-使用同一个网络同时进行多种风格的转化 
+- 使用同一个网络同时进行多种风格的转化 
 [Dumoulin et al, “A Learned Representation for Artistic Style”, arXiv 2016](https://arxiv.org/pdf/1610.07629.pdf)
 
-在电影作品中的应用
+- 在电影作品中的应用
 [Bringing Impressionism to Life with Neural Style Transfer in Come Swim](https://arxiv.org/pdf/1701.04928.pdf)
