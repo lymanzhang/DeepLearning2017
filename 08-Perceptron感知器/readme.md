@@ -207,3 +207,18 @@ Perceptron Formula
 ​​ ) 和偏置项 (b) 是随机值，它们用一种学习算法来更新。权重和偏置项的更新使得下一个训练样本更准确地被归类，数据中蕴含的模式，也就被神经网络“学”出来了。
 
 现在你对感知器有了很好的理解，让我们把学到的只是予以应用。接下来，你将从之前神经网络的视频中来学习通过设定权重和偏置项来创建一个 AND 感知器。
+
+
+### 测试GitHub中数学公式的渲染
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+formula1: $$n==x$$
+
+formula2: $$n!=x$$
+
+formula3: (m==y)
+
+formula4: [m!=y]
+
+formula5: \(k==z\)
+
+formula6: \[k!=z\]
