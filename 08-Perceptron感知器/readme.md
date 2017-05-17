@@ -32,19 +32,7 @@
 
 感知器把权重和输入做点积并相加再加总的过程叫做 线性组合。在这里也就是
 
-w
-​grades
-​​ ⋅x
-​grades
-​​ +w
-​test
-​​ ⋅x
-​test
-​​ =−1⋅x
-​grades
-​​ −0.2⋅x
-​test
-​​ .
+$ w_{grades} ⋅ x_{grades} + w_{​test} ⋅ x_{test} = −1 ⋅ x_​{grades} − 0.2 ⋅ x_{test}$
 
 为了让我们的公式更简洁，我们可以把名称用数字表示。用 1 来表示 grades，2 来表示 tests. 我们的公式就变成了：
 
