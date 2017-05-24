@@ -296,3 +296,15 @@ array([[ 14.63126659,  -6.80020189,  -4.92433405, ...,   3.42016411,
 
 - 在电影作品中的应用
 [Bringing Impressionism to Life with Neural Style Transfer in Come Swim](https://arxiv.org/pdf/1701.04928.pdf)
+
+- 一篇关于styletransfer的综述
+[Neural Style Transfer: A Review](https://arxiv.org/pdf/1705.04058.pdf)
+
+## 其他相关链接
+- [DeepLearning-风格迁移](http://www.jianshu.com/p/8f8fc2aa80b3)
+- [如何评价Google最新发布的增强型风格迁移算法？](http://www.leiphone.com/news/201610/SqlyIRXlACv8UsId.html)
+- [用数据说话：把自拍照变成毕加索名画 哪种算法最高效？](http://www.leiphone.com/news/201703/Isacz6x6dDNQPDVW.html)
+- [AI 如何助你成为“画家”｜硬创公开课](http://www.leiphone.com/news/201701/8NmiyxvpoU88O4Ft.html)
+- [Tensorflow实现照片风格的迁移](http://blog.csdn.net/aichipmunk/article/details/54175030)
+- [神经风格迁移研究概述：从当前研究到未来方向（附论文和代码）](http://it.sohu.com/20170515/n493091306.shtml)
+- [资源 | 下一代PS工具：Adobe照片级图像风格转换的Torch实现](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650724939&idx=4&sn=0f18b339d0bcb09de1c1efd5cff978a8&chksm=871b1e35b06c972387569f7222f834ad848c63777ed9ae6b0f78ba67a5e55bd63b5f9da8c769&scene=21#wechat_redirect)
